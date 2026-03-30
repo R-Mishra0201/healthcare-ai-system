@@ -144,7 +144,7 @@ def generate_medical_analysis(client, name, age, gender, symptoms, hospital_cont
 # 4. USER INTERFACE
 # ==========================================
 def main():
-    st.title("🩺 AI Health Analysis Portal")
+    st.title("Healthcare Disease Prediction System")
     st.caption("Secure, Educational Triage System v2.0 (Location-Aware)")
     
     client = initialize_ai()
