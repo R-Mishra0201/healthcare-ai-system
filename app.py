@@ -14,7 +14,7 @@ from google.genai import types
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-st.set_page_config(page_title="Enterprise Healthcare AI", page_icon="🩺", layout="centered")
+st.set_page_config(page_title="Healthcare Disease Prediction System", page_icon="🩺", layout="centered")
 
 # ==========================================
 # 2. DATA LAYER (Retrieval & Self-Healing)
