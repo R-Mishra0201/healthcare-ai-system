@@ -185,8 +185,8 @@ def main():
             analysis = generate_medical_analysis(client, name, age, gender, symptoms, hospital_context)
             
         if analysis:
-            st.success("Triage & Routing Complete.")
-            st.markdown("### 📋 Triage Report")
+            st.success("Baseline ML Prediction (for reference): GERD")
+            st.markdown("AI Medical Analysis")
             st.write(analysis)
             
             st.download_button(
