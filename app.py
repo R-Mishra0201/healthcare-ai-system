@@ -186,7 +186,7 @@ def main():
             
         if analysis:
             st.success("Baseline ML Prediction (for reference): GERD")
-            st.markdown("AI Medical Analysis")
+            st.markdown("Medical Analysis")
             st.write(analysis)
             
             st.download_button(
